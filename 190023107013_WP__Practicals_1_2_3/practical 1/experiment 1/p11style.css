@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:gold;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #1c2e50;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #1c2e50;
+}
+  .container {
+    padding: 50px;
+    margin: 100px;
+    background-color: white;
+  }
+#name, #email, #phone, #date, #other {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+#date {
+    width: 50%;
+}
+#city {
+    width: 24%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+  hr {
+    border: 1px solid #1c2e50;
+    margin-bottom: 25px;
+    width: 40%;
+  }
+  
+  .registerbtn {
+    background-color: #4c6faf;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  

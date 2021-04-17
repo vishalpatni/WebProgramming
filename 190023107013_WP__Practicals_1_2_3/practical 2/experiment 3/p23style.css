@@ -1,0 +1,47 @@
+table {
+	width: 100%;
+}
+caption {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px;
+	color: rgba(3, 83, 50, 0.8);
+}
+table tr th {
+	font-size: 25px;
+	padding: 10px;
+}
+table tr td{
+	font-size: 22px;
+	text-align: center;
+}
+table tr {
+	background-color:  rgba(15, 223, 137, 0.329);
+}
+table tr td:hover {
+	background-color:  #50ff0d8;
+}
+table tr td:nth-child(1):hover{
+    background-color:  rgba(3, 86, 50, 0.8);
+}
+table tr td a{
+    text-decoration: none;
+    color: ;
+}
+table tr td a:active {
+    color: green;
+}
+table tr td a:visited{
+    color: blue;
+}
+table tr td a:hover {
+    color: white;
+}
+table tr th {
+	background-color: #d4139ccc;
+	color: white;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}

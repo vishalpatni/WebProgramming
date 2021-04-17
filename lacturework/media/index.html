@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The area media attribute</h1>
+
+<p>Click on the sun to watch it closer:</p>
+
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.gif" media="screen and (min-color-index:256)">
+</map>
+<br><br>
+<h1>The source media attribute</h1>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+<br><br>
+<h1>The video element</h1>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</body>
+</html>

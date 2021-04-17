@@ -1,0 +1,24 @@
+table {
+	width: 100%;
+}
+caption {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px;
+	color: red;
+}
+table tr th {
+	font-size: 25px;
+	padding: 10px;
+}
+table tr td{
+	font-size: 20px;
+	text-align: center;
+}
+table tr:nth-child(odd){
+	background-color: #95a5a6;
+}
+table tr th {
+	background-color: #34495e;
+	color: white;
+}

@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:gold;
+  }
+table { 
+   width:500px;
+   height:500px;
+   border: 1px solid black;
+   border-spacing: 5px;
+   border-collapse: separate;
+   position: relative;
+  left: 800px;
+  border: 3px solid #73AD21;
+}
+  
+ th, td {  /* cells */
+   border: 1px solid #aaa;
+   padding: 5px 10px;
+}
+h1{
+  position: relative;
+  left: 1000px;
+color:grey;
+  }
